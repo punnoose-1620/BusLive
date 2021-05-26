@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="busroutes.livestatus">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+            <Button x:Name="btnbus1" Text="BUS NO:1" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus2" Text="BUS NO:2" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus3" Text="BUS NO:3" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus4" Text="BUS NO:4" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus5" Text="BUS NO:5" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus6" Text="BUS NO:6" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus7" Text="BUS NO:7" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus8" Text="BUS NO:8" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus9" Text="BUS NO:9" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus10" Text="BUS NO:10" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus11" Text="BUS NO:11" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus12" Text="BUS NO:12" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus13" Text="BUS NO:13" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus14" Text="BUS NO:14" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus15" Text="BUS NO:15" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus16" Text="BUS NO:16" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus17" Text="BUS NO:17" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus18" Text="BUS NO:18" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+            <Button x:Name="btnbus19" Text="BUS NO:19" TextColor="White"  BackgroundColor="DarkCyan" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand"/>
+         </StackLayout>
+       </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

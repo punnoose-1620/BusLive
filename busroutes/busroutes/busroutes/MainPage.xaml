@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:busroutes"
+             BackgroundImage="map.png"
+             x:Class="busroutes.MainPage">
+    <ScrollView>
+        <StackLayout>
+            <Image Source="schoolbus.png" />
+            <Button x:Name="btnsttode" Text="START TO DESTINATION" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="#3783AA" TextColor="White" Clicked="btnsttode_Clicked"/>
+            <Button x:Name="btnbusno"  Text="BUS NUMBER" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="#3783AA" TextColor="White" Clicked="btnbusno_Clicked"/>
+            <Button x:Name="btnlive" Text="LIVE STATUS" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" BackgroundColor="#3783AA" TextColor="White" Clicked="btnlive_Clicked"/>
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

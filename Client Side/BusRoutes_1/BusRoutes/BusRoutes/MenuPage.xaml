@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             BackgroundImage="Bck.png"
+             x:Class="BusRoutes.MenuPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20,10,0,0">
+            <Label Text=" What Would You Like to View? "
+                   BackgroundColor="DarkSlateGray"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   TextColor="IndianRed"/>
+            <Button Text="BUS ROUTES"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    BackgroundColor="WhiteSmoke"
+                    x:Name="routes"
+                    Clicked="routes_Clicked"/>
+            <Button Text="LIVE STATUS"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextColor="Black"
+                    BackgroundColor="WhiteSmoke"
+                    x:Name="status"
+                    Clicked="status_Clicked"/>
+            <WebView x:Name="Browser"
+                     Source="http://saintgitsbuslive.thopps.com/" 
+                     WidthRequest="2000"
+                     HeightRequest="1000" />
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BusRoutes"
+             BackgroundImage="LoadingPage.png"
+             x:Class="BusRoutes.MainPage">
+    <StackLayout Padding="20,10,0,0">
+        <Label Text="Welcome to  SAINTGITS BUS LIVE" 
+               VerticalOptions="Center" 
+               HorizontalOptions="Center" 
+               FontAttributes="Bold"
+               FontSize="Large"/>
+        <Button Text="Click to Continue"
+                BackgroundColor="GhostWhite"
+                TextColor="Black"
+                x:Name="MenNav"
+                HorizontalOptions="Center"
+                VerticalOptions="End"
+                Clicked="MenNav_Clicked"/>
+    </StackLayout>
+</ContentPage>

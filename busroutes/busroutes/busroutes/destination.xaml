@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="busroutes.destination">
+    <ContentPage.Content>
+
+        <StackLayout Padding="50,50,50,50">
+            <StackLayout Orientation="Horizontal">
+                <Label x:Name="lbltex" Text="Please Enter Your Search Criteria Below:"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center" TextColor="Black" FontSize="Medium" FontAttributes="Italic"/>
+                <Image Source="advising_icons_transfer.png"
+                   HorizontalOptions="End"
+                  HeightRequest="150" WidthRequest="150" Margin="350,0,0,0" />
+            </StackLayout>
+            <Entry x:Name="txtstart"  Placeholder="Enter Departure" />
+            <Entry x:Name="txtdes" Placeholder="Enter Destination"/>
+            <StackLayout Orientation="Horizontal">
+                <Button x:Name="btnsearch" Text="Search"  HorizontalOptions="FillAndExpand" Clicked="btnsearch_Clicked" BackgroundColor="LawnGreen"/>
+            </StackLayout>
+          
+            </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

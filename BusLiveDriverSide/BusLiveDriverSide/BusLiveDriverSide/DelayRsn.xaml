@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BusLiveDriverSide.DelayRsn">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Reason for Delay?"
+                   FontAttributes="Bold"
+                   FontSize="Large" />
+            <Button Text="Traffic"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    x:Name="Traffic"
+                    Clicked="Traffic_Clicked" />
+            <Button Text="Strike"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    x:Name="Strike"
+                    Clicked="Strike_Clicked" />
+            <Button Text="Punctured Tyre"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    x:Name="Puncture"
+                    Clicked="Puncture_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:BusLiveDriverSide"
+             x:Class="BusLiveDriverSide.MainPage">
+
+    <StackLayout Padding="20,10,0,0" Orientation="Vertical">
+            <Button Text="Get gps Position" Clicked="Button_OnClicked"/>
+            <Label Text="LatitudeLabel"/>
+            <Label x:Name="LatitudeLabel"/>
+            <Label Text="Longitude"/>
+            <Label x:Name="LongitudeLabel"/>
+            <Button Text="Report Breakdown"
+                FontSize="Large"
+                FontAttributes="Bold"
+                TextColor="Black"
+                BackgroundColor="WhiteSmoke"
+                x:Name="BrkDwn"
+                Clicked="BrkDwn_Clicked" />
+        <Button Text="Report Delay"
+                FontSize="Large"
+                FontAttributes="Bold"
+                TextColor="Black"
+                BackgroundColor="WhiteSmoke"
+                x:Name="Delay"
+                Clicked="Delay_Clicked" />
+        
+    </StackLayout>
+</ContentPage>
